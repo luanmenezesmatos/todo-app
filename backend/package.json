@@ -1,0 +1,27 @@
+{
+  "name": "todo-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "generate": "drizzle-kit generate:pg"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luanmenezesmatos/todo-app.git"
+  },
+  "author": "luanmenezesmatos",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/luanmenezesmatos/todo-app/issues"
+  },
+  "homepage": "https://github.com/luanmenezesmatos/todo-app#readme",
+  "dependencies": {
+    "drizzle-orm": "^0.29.1",
+    "postgres": "^3.4.3"
+  },
+  "devDependencies": {
+    "drizzle-kit": "^0.20.6"
+  }
+}
